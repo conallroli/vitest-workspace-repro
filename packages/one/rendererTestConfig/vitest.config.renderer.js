@@ -4,7 +4,7 @@ export default defineConfig(
     {
         test: {
             include: [
-                'renderer/**/*.test.js',
+                '../renderer/**/*.test.js',
             ]
         }
     }

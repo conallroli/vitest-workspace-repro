@@ -3,5 +3,11 @@
   "packageManager": "yarn@4.1.1",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "vitest": "^1.5.0"
+  },
+  "scripts": {
+    "test": "vitest"
+  }
 }
